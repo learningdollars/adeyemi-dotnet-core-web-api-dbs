@@ -9,11 +9,6 @@ namespace webApiMultipleDb.Data
     {
         private readonly IConfiguration _config;
 
-        // public UserDbContext(IConfiguration config, DbContextOptions<UserDbContext> options)
-        // {
-        //     _config = config;
-        // }
-
         public UserDbContext(IConfiguration config)
         {
             _config = config;

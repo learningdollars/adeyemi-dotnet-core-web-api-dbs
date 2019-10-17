@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using webApiMultipleDb.Data;
 
-namespace webApiMultipleDb.Migrations
+namespace webApiMultipleDb.Migrations.BookDb
 {
     [DbContext(typeof(BookDbContext))]
-    [Migration("20191015020028_InitialCreated")]
-    partial class InitialCreated
+    [Migration("20191016212413_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
