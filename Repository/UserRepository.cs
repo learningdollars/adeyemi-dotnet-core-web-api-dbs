@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using webApiMultipleDb.Models;
 using webApiMultipleDb.Data;
 
-
 namespace webApiMultipleDb.Repository
 {
     public class UserRepository : IUserRepository

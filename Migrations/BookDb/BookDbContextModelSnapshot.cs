@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using webApiMultipleDb.Data;
 
-namespace webApiMultipleDb.Migrations
+namespace webApiMultipleDb.Migrations.BookDb
 {
     [DbContext(typeof(BookDbContext))]
     partial class BookDbContextModelSnapshot : ModelSnapshot
